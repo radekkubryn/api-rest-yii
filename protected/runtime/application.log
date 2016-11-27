@@ -1,0 +1,8 @@
+2016/11/27 23:05:26 [error] [exception.CHttpException.404] CHttpException: Nie można ustalić żądania "cities/id=2". in C:\xampp\htdocs\api\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\api\yii\web\CWebApplication.php(141): CWebApplication->runController('cities/id=2')
+#1 C:\xampp\htdocs\api\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\api\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/cities/id=2
+---
